@@ -6240,8 +6240,8 @@ html [class*='section-'].section-bottom-0 {
 .bg-decorate:after {
 	position: absolute;
 	content: '';
-	top: 50%;
-	left: 0;
+	top: 100%;
+	left: 100%;
 	width: 100vw;
 	height: 100vw;
 	background: #323232;
