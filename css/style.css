@@ -6167,7 +6167,7 @@ html [class*='section-'].section-bottom-0 {
 	background-position: center center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	html:not(.tablet):not(.mobile) .bg-fixed {
 		background-attachment: fixed;
 	}
@@ -6240,8 +6240,8 @@ html [class*='section-'].section-bottom-0 {
 .bg-decorate:after {
 	position: absolute;
 	content: '';
-	top: 100%;
-	left: 100%;
+	top: 50%;
+	left: 0;
 	width: 100vw;
 	height: 100vw;
 	background: #323232;
